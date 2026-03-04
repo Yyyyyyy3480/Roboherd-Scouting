@@ -2,12 +2,6 @@ name: Deploy
 
 on:
   push:
-    paths-ignore:
-      - "docs/**"
-    branches: [ "main" ]
-  pull_request:
-    paths-ignore:
-      - "docs/**"
     branches: [ "main" ]
   workflow_dispatch:
 
